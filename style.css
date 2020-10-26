@@ -395,6 +395,12 @@ nav li a:hover:after {
   margin-bottom: 20px;
 }
 
+.social-btn i {
+  text-align: center;
+  /* vertical-align: middle; */
+  line-height: 30px;
+}
+
 .social-btn:hover {
   background-color: #003a5e;
   color: #e5e5e5;
@@ -1066,9 +1072,20 @@ footer li a:hover {
     width: 15px;
   }
 
+  .header-social-container {
+    top: 45%;
+  }
+
   .social-btn {
-    padding-bottom: 5px;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-bottom: 13px;
+  }
+
+  .social-btn i {
+    line-height: 20px;
   }
 
   .header-title {
