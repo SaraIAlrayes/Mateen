@@ -24,6 +24,10 @@ body {
   background-color: #002238;
 }
 
+.grey-body {
+  background-color: #e5e5e5;
+}
+
 .row {
   margin: 0;
 }
@@ -447,6 +451,16 @@ nav li a:hover:after {
   right: 0;
 }
 
+.grey-gradient-transparent-layer {
+  background-image: linear-gradient(to top, #e5e5e5, rgba(0, 58, 94, 0));
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 .header-title-container {
   position: absolute;
   left: 10%;
@@ -465,9 +479,23 @@ nav li a:hover:after {
   line-height: 1;
 }
 
+.grey-header-title {
+  color: #002238;
+  font-family: Acute;
+  font-size: 9rem;
+  border-bottom: 2px solid #002238;
+  line-height: 1;
+}
+
 .header-tagline {
   font-family: Avenir;
   font-size: 1.5rem;
+}
+
+.grey-header-tagline {
+  font-family: Avenir;
+  font-size: 1.5rem;
+  color: #002238;
 }
 
 /* About */
@@ -477,8 +505,9 @@ nav li a:hover:after {
 }
 
 .about-tagline {
-  font-family: Acute;
-  font-size: 2.7rem;
+  font-family: Avenir;
+  font-size: 2.3rem;
+  font-weight: bold;
   color: #e5e5e5;
 }
 
@@ -542,7 +571,7 @@ nav li a:hover:after {
 
 .about-section-title {
   font-family: Avenir;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
   display: inline-block;
@@ -559,6 +588,7 @@ nav li a:hover:after {
 .about-details-box {
   background-color: #e5e5e5;
   padding: 4% 5% 4%;
+  text-align: left;
 }
 
 .about-details {
@@ -603,10 +633,9 @@ nav li a:hover:after {
 }
 
 .values-section-title {
-  font-size: 15vw;
+  font-size: 14vw;
   line-height: 1;
   font-family: Acute;
-  text-shadow: 3px 3px 0px rgba(255, 255, 255, 0.2);
   color: #e5e5e5;
 }
 
@@ -647,7 +676,7 @@ nav li a:hover:after {
 .brand-locations {
   font-family: Avenir;
   font-size: 1.5rem;
-  color: #e5e5e5;
+  color: #002238;
   text-transform: uppercase;
   margin: 0;
   padding-top: 3%;
@@ -675,8 +704,8 @@ nav li a:hover:after {
 .brand-section-title {
   font-family: Avenir;
   font-size: 1rem;
-  color: #e5e5e5;
-  border-bottom: 1px solid #e5e5e5;
+  color: #002238;
+  border-bottom: 1px solid #002238;
   display: inline-block;
   margin: 0;
 }
@@ -684,17 +713,24 @@ nav li a:hover:after {
 .brand-title {
   font-family: Acute;
   font-size: 4rem;
-  color: #e5e5e5;
+  color: #002238;
   margin: 0;
 }
 
+.brand-title-img {
+  max-width: 45vw;
+  max-height: 10vw;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
 .brand-description-box {
-  background-color: #e5e5e5;
+  background-color: #002238;
   padding: 4% 5% 4%;
 }
 
 .brand-description {
-  color: #002238;
+  color: #e5e5e5;
   font-family: Avenir;
   font-size: 0.9rem;
   margin: auto;
@@ -709,10 +745,10 @@ nav li a:hover:after {
 }
 
 
-.location-city {
+.location-branch {
   font-family: Avenir;
   font-size: 1.5rem;
-  color: #e5e5e5;
+  color: #002238;
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -720,15 +756,15 @@ nav li a:hover:after {
 .location-details {
   font-family: Avenir;
   font-size: 0.7rem;
-  color: #e5e5e5;
+  color: #002238;
   margin-bottom: 0;
 }
 
 .location-map-btn {
   font-family: Avenir;
   font-size: 0.6rem;
-  background-color: #e5e5e5;
-  color: #002238;
+  background-color: #002238;
+  color: #e5e5e5;
   border-radius: 0;
   text-transform: uppercase;
   margin: auto;
@@ -737,8 +773,8 @@ nav li a:hover:after {
 
 .location-map-btn:hover {
   background-color: transparent;
-  color: #e5e5e5;
-  border: 1px solid #e5e5e5;
+  color: #002238;
+  border: 1px solid #002238;
 }
 
 /* Gallery */
@@ -748,20 +784,19 @@ nav li a:hover:after {
 }
 
 .gallery-filter {
-  background-color: #e5e5e5;
-  color: #002238;
   font-family: Avenir;
   text-transform: uppercase;
   font-size: 0.8rem;
   margin-left: 1.1rem;
   margin-right: 1.1rem;
   border-radius: 0;
+  color: #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .gallery-filter:hover {
-  background-color: transparent;
-  color: #e5e5e5;
-  border: 1px solid #e5e5e5;
+  color: #32617e;
+  border-bottom: 1px solid #32617e;
 }
 
 .gallery {
@@ -839,7 +874,7 @@ nav li a:hover:after {
 .contact-absolute-container {
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 7%;
 }
 
 .contact-absolute-text {
@@ -868,6 +903,7 @@ nav li a:hover:after {
   border: transparent;
   border-bottom: 1px solid #003a5e;
   color: #003a5e;
+  border-radius: 0;
 }
 
 .contact-submit {
@@ -901,6 +937,11 @@ nav li a:hover:after {
   font-size: 0.9rem;
 }
 
+.contact-info-company-logo {
+  width: 15vw;
+  padding-bottom: 7%;
+}
+
 .contact-info-details {
   font-family: Avenir;
   font-size: 0.7rem;
@@ -922,13 +963,11 @@ nav li a:hover:after {
 .footer-container {
   padding: 3% 5% 1%;
   background-image: linear-gradient(to bottom, #002238, #003a5e);
-  /* background-color: #003454; */
 }
 
-.footer-title-container {
-  margin-top: -8%;
-  color: #e5e5e5;
-  position: relative;
+.grey-footer-container {
+  padding: 3% 5% 1%;
+  background-image: linear-gradient(to bottom, #e5e5e5, #003a5e);
 }
 
 .footer-title {
@@ -985,11 +1024,11 @@ footer li a:hover {
   }
 
   .header-img {
-    height: 60vw;
+    height: 65vw;
   }
 
   .header-video {
-    height: 60vw;
+    height: 65vw;
   }
 
   .header-layer {
@@ -1000,7 +1039,15 @@ footer li a:hover {
     top: 40%;
   }
 
+  .header-title-img {
+    width: 55vw;
+  }
+
   .header-tagline {
+    font-size: 1rem;
+  }
+
+  .grey-header-tagline {
     font-size: 1rem;
   }
 
@@ -1089,6 +1136,10 @@ footer li a:hover {
   }
 
   .header-title {
+    font-size: 5.5rem;
+  }
+
+  .grey-header-title {
     font-size: 5.5rem;
   }
 
