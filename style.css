@@ -1101,6 +1101,10 @@ footer li a:hover {
     order: 3;
   }
 
+  .contact-info-company-logo {
+    width: 25vw;
+  }
+
   .footer-title-container {
     margin-top: -14%;
   }
