@@ -616,7 +616,7 @@ nav li a:hover:after {
 
 .value-conatiner-alt {
   border: 1px solid #e5e5e5;
-  padding: 5%;
+  padding: 2%;
   margin-top: 2%;
   margin-bottom: 2%;
 }
@@ -629,22 +629,23 @@ nav li a:hover:after {
 }
 
 .values-container {
-  padding: 0 10% 15%;
+  padding: 0 20% 15%;
 }
 
 .values-section-title {
-  font-size: 14vw;
-  line-height: 1;
+  font-size: 8.5rem;
+  line-height: 0.7;
   font-family: Acute;
   color: #e5e5e5;
+  margin-bottom: 5%;
 }
 
 .value-conatiner {
   background-color: #e5e5e5;
   color: #002238;
-  padding: 4%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  padding: 2%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .value {
@@ -653,9 +654,9 @@ nav li a:hover:after {
   margin: auto;
 }
 
-.values-col {
+/* .values-col {
   display: grid;
-}
+} */
 
 /* Brands */
 .brands-container {
@@ -682,14 +683,14 @@ nav li a:hover:after {
   padding-top: 3%;
   padding-bottom: 3%;
 }
-
+/*
 .brand-locations-regular {
   display: block;
 }
 
 .brand-locations-mobile {
   display: none;
-}
+} */
 
 .brand-locations:hover {
   cursor: pointer;
@@ -719,7 +720,7 @@ nav li a:hover:after {
 
 .brand-title-img {
   max-width: 45vw;
-  max-height: 10vw;
+  max-height: 20vw;
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -737,7 +738,6 @@ nav li a:hover:after {
 }
 
 .location-container {
-  margin: auto;
   justify-content: center;
   padding-top: 3%;
   padding-bottom: 3%;
@@ -874,7 +874,7 @@ nav li a:hover:after {
 .contact-absolute-container {
   position: absolute;
   bottom: 0;
-  right: 7%;
+  right: 1%;
 }
 
 .contact-absolute-text {
@@ -1005,7 +1005,6 @@ footer ul:before {
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
-  margin-left: -12px;
 }
 
 footer li a {
@@ -1064,21 +1063,17 @@ footer li a:hover {
     flex-flow: column-reverse;
   }
 
-  .values-section-title {
+  /* .values-section-title {
     font-size: 12vw;
-  }
+  } */
 
-  .brand-title-img {
-    max-height: 22vw;
-  }
-
-  .brand-locations-regular {
+  /* .brand-locations-regular {
     display: none;
   }
 
   .brand-locations-mobile {
     display: block;
-  }
+  } */
 
   /*  {
     display: flex;
